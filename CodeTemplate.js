@@ -139,6 +139,9 @@ document.body.onmousedown = function() { return false; } //so page is unselectab
 	var Rectangle3 = createObjectPic("Images/WhiteRect.png")
 	
 	var Boss = createObjectPic("Images/BossBrick.png")
+	
+	
+	var Boss1 = createObjectPic("Images/BossBrick.png")
 	var Brick94 = createObjectPic("Images/Brick.png")
 	var Brick95 = createObjectPic("Images/Brick.png")
 	var Brick96 = createObjectPic("Images/Brick.png")
@@ -148,7 +151,9 @@ document.body.onmousedown = function() { return false; } //so page is unselectab
 	var Brick100 = createObjectPic("Images/Brick.png")
 	var Brick101 = createObjectPic("Images/Brick.png")
 	
-	var Boss1 = createObjectPic("Images/BossBrick.png")
+	
+
+	var Boss2 = createObjectPic("Images/BossBrick.png")
 	var Brick102 = createObjectPic("Images/Brick.png")
 	var Brick103 = createObjectPic("Images/Brick.png")
 	var Brick104 = createObjectPic("Images/Brick.png")
@@ -161,9 +166,11 @@ document.body.onmousedown = function() { return false; } //so page is unselectab
 	var DoubleBrick9 = createObjectPic("Images/QuestionBrick.png")
 	var DoubleBrick10 = createObjectPic("Images/QuestionBrick.png")
 	var DoubleBrick11 = createObjectPic("Images/QuestionBrick.png")
-
-	var Boss2 = createObjectPic("Images/BossBrick.png")
-        var Brick110 = createObjectPic("Images/Brick.png")
+	
+	
+    
+	var Boss3 = createObjectPic("Images/BossBrick.png")
+	var Brick110 = createObjectPic("Images/Brick.png")
 	var Brick111 = createObjectPic("Images/Brick.png")
 	var Brick112 = createObjectPic("Images/Brick.png")
 	var Brick113 = createObjectPic("Images/Brick.png")
@@ -180,9 +187,25 @@ document.body.onmousedown = function() { return false; } //so page is unselectab
 	var DoubleBrick18 = createObjectPic("Images/QuestionBrick.png")
 	var DoubleBrick19 = createObjectPic("Images/QuestionBrick.png")
 
-	var Boss3 = createObjectPic("Images/BossBrick.png")
-	
-	
+	var Boss4 = createObjectPic("Images/BossBrick.png")
+	var Brick118 = createObjectPic("Images/Brick.png")
+	var Brick119 = createObjectPic("Images/Brick.png")
+	var Brick120 = createObjectPic("Images/Brick.png")
+	var Brick121 = createObjectPic("Images/Brick.png")
+	var Brick122 = createObjectPic("Images/Brick.png")
+	var Brick123 = createObjectPic("Images/Brick.png")
+	var Brick124 = createObjectPic("Images/Brick.png")
+	var Brick125 = createObjectPic("Images/Brick.png")
+	var DoubleBrick20 = createObjectPic("Images/QuestionBrick.png")
+	var DoubleBrick21 = createObjectPic("Images/QuestionBrick.png")
+	var DoubleBrick22 = createObjectPic("Images/QuestionBrick.png")
+	var DoubleBrick23 = createObjectPic("Images/QuestionBrick.png")
+    var DoubleBrick24 = createObjectPic("Images/QuestionBrick.png")
+	var DoubleBrick25 = createObjectPic("Images/QuestionBrick.png")
+	var DoubleBrick26 = createObjectPic("Images/QuestionBrick.png")
+	var DoubleBrick27 = createObjectPic("Images/QuestionBrick.png")
+	var TripleBrick4 = createObjectPic("Images/TripleBrick.jpg")
+	var TripleBrick5 = createObjectPic("Images/TripleBrick.jpg")
 	
 	
 	var Ball = createObjectPic("Images/Ball.png")
@@ -596,12 +619,12 @@ document.body.onmousedown = function() { return false; } //so page is unselectab
 	DoubleBrick.x = 220
 	DoubleBrick.y = 150
 	
-	DoubleBrick.scale = .022
+	DoubleBrick.scale = .021
 	
 	DoubleBrick1.x = 295
 	DoubleBrick1.y = 150
 	
-	DoubleBrick1.scale = .022
+	DoubleBrick1.scale = .021
 	
 	//Level 3
 	
@@ -778,32 +801,32 @@ document.body.onmousedown = function() { return false; } //so page is unselectab
 	DoubleBrick2.x = 220
 	DoubleBrick2.y = 150
 	
-	DoubleBrick2.scale = .022
+	DoubleBrick2.scale = .021
 	
 	DoubleBrick3.x = 295
 	DoubleBrick3.y = 150
 	
-	DoubleBrick3.scale = .022
+	DoubleBrick3.scale = .021
 	
 	DoubleBrick4.x = 800
 	DoubleBrick4.y = 30
 	
-	DoubleBrick4.scale = .022
+	DoubleBrick4.scale = .021
 	
 	DoubleBrick5.x = 800
 	DoubleBrick5.y = 30
 	
-	DoubleBrick5.scale = .022
+	DoubleBrick5.scale = .021
 	
 	DoubleBrick6.x = 800
 	DoubleBrick6.y = 60
 	
-	DoubleBrick6.scale = .022
+	DoubleBrick6.scale = .021
 	
 	DoubleBrick7.x = 800
 	DoubleBrick7.y = 60
 	
-	DoubleBrick7.scale = .022
+	DoubleBrick7.scale = .021
 	
 	TripleBrick.x = 225
 	TripleBrick.y = 30
@@ -832,6 +855,16 @@ document.body.onmousedown = function() { return false; } //so page is unselectab
     Boss.speedx = 10
 	
 	Boss.scale = .15
+	
+	
+	
+	
+	Boss1.x = 800
+	Boss1.y = 30
+	
+    Boss1.speedx = 9
+	
+	Boss1.scale = .15
 	
 	Brick94.x = 1000
 	Brick94.y = 120
@@ -874,12 +907,13 @@ document.body.onmousedown = function() { return false; } //so page is unselectab
 	Brick101.scale = .1
 	
 	
-	Boss1.x = 800
-	Boss1.y = 30
 	
-    Boss1.speedx = 9
+	Boss2.x = 800
+	Boss2.y = 30
 	
-	Boss1.scale = .15
+    Boss2.speedx = 8
+	
+	Boss2.scale = .15
 	
 	Brick102.x = 1000
 	Brick102.y = 120
@@ -924,32 +958,154 @@ document.body.onmousedown = function() { return false; } //so page is unselectab
 	DoubleBrick8.x = 1000
 	DoubleBrick8.y = 120
 	
-	DoubleBrick8.scale = .022
+	DoubleBrick8.scale = .021
 	
 	DoubleBrick9.x = 1000
 	DoubleBrick9.y = 120
 	
-	DoubleBrick9.scale = .022
+	DoubleBrick9.scale = .021
 	
 	DoubleBrick10.x = 1000
 	DoubleBrick10.y = 120
 	
-	DoubleBrick10.scale = .022
+	DoubleBrick10.scale = .021
 	
 	DoubleBrick11.x = 1000
 	DoubleBrick11.y = 120
 	
-	DoubleBrick11.scale = .022
+	DoubleBrick11.scale = .021
 	
-	Boss2.x = 800
-	Boss2.y = 30
 	
-    Boss2.speedx = 8
-	
-	Boss2.scale = .15
 
-
+    Boss3.x = 800
+	Boss3.y = 30
+	
+    Boss3.speedx = 7
+	
+	Boss3.scale = .15
+	
+	
     Brick110.x = 1000
+	Brick110.y = 120
+	
+	Brick110.scale = .1
+	
+	Brick111.x = 1000
+	Brick111.y = 120
+	
+	Brick111.scale = .1
+	
+	Brick112.x = 1000
+	Brick112.y = 120
+	
+	Brick112.scale = .1
+	
+	Brick113.x = 1000
+	Brick113.y = 120
+	
+	Brick113.scale = .1
+	
+	Brick114.x = 1000
+	Brick114.y = 120
+
+	Brick114.scale = .1
+	
+	Brick115.x = 1000
+	Brick115.y = 120
+	
+	Brick115.scale = .1
+	
+	Brick116.x = 1000
+	Brick116.y = 120
+	
+	Brick116.scale = .1
+	
+	Brick117.x = 1000
+	Brick117.y = 120
+	
+	Brick117.scale = .1
+
+    DoubleBrick12.x = 1000
+	DoubleBrick12.y = 120
+	
+<<<<<<< HEAD
+	DoubleBrick12.scale = .022
+=======
+	DoubleBrick12.scale = .021
+>>>>>>> origin/master
+	
+	DoubleBrick13.x = 1000
+	DoubleBrick13.y = 120
+	
+<<<<<<< HEAD
+	DoubleBrick13.scale = .022
+=======
+	DoubleBrick13.scale = .021
+>>>>>>> origin/master
+	
+	DoubleBrick14.x = 1000
+	DoubleBrick14.y = 120
+	
+<<<<<<< HEAD
+	DoubleBrick14.scale = .022
+=======
+	DoubleBrick14.scale = .021
+>>>>>>> origin/master
+	
+	DoubleBrick15.x = 1000
+	DoubleBrick15.y = 120
+	
+<<<<<<< HEAD
+	DoubleBrick15.scale = .022
+=======
+	DoubleBrick15.scale = .021
+>>>>>>> origin/master
+	
+	DoubleBrick16.x = 1000
+	DoubleBrick16.y = 120
+	
+<<<<<<< HEAD
+	DoubleBrick16.scale = .022
+=======
+	DoubleBrick16.scale = .021
+>>>>>>> origin/master
+	
+	DoubleBrick17.x = 1000
+	DoubleBrick17.y = 120
+	
+<<<<<<< HEAD
+	DoubleBrick17.scale = .022
+=======
+	DoubleBrick17.scale = .021
+>>>>>>> origin/master
+	
+	DoubleBrick18.x = 1000
+	DoubleBrick18.y = 120
+	
+<<<<<<< HEAD
+	DoubleBrick18.scale = .022
+=======
+	DoubleBrick18.scale = .021
+>>>>>>> origin/master
+	
+	DoubleBrick19.x = 1000
+	DoubleBrick19.y = 120
+	
+<<<<<<< HEAD
+	DoubleBrick19.scale = .022
+=======
+	DoubleBrick19.scale = .021
+	
+>>>>>>> origin/master
+	
+	Boss3.x = 800
+	Boss3.y = 30
+	
+    Boss3.speedx = 7
+	
+	Boss3.scale = .15
+	
+	Brick110.x = 1000
 	Brick110.y = 120
 	
 	Brick110.scale = .1
@@ -1029,12 +1185,26 @@ document.body.onmousedown = function() { return false; } //so page is unselectab
 	
 	DoubleBrick19.scale = .022
 	
-	Boss3.x = 800
-	Boss3.y = 30
 	
-    Boss3.speedx = 7
 	
-	Boss3.scale = .15
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	}
 	  
@@ -1450,6 +1620,7 @@ document.body.onmousedown = function() { return false; } //so page is unselectab
 		ctx.fillStyle = 'Black'
 		ctx.fillText("This game was created by Matthew Tricarico in Mr Guzy's Grade 9",10,25);
 		ctx.fillText("Tech class",10,50);
+		ctx.fillText("More content to be added soon!",10,100);
 		button3.draw();
 		
 		
@@ -2588,7 +2759,184 @@ document.body.onmousedown = function() { return false; } //so page is unselectab
 	    Boss2.x = 10000
 	    Ball3.speedy = Ball3.speedy * -1
 	    score += 1
+		
+	  }else if(Ball3.collideObject (Brick110)){
+	  //Ball.speedx = Ball.speedx * -1
+	  Brick110.scale = 0.01
+	  Brick110.x = 10000
+	  mySound.play();
+	  Ball3.speedy = Ball3.speedy * -1
+	    score += 1
+	  
+	  }else if(Ball3.collideObject (Brick111)){
+	  //Ball.speedx = Ball.speedx * -1
+	  Brick111.scale = 0.01
+	  Brick111.x = 10000
+	  mySound.play();
+	  Ball3.speedy = Ball3.speedy * -1
+	    score += 1
+	 
+	  }else if(Ball3.collideObject (Brick112)){
+	  //Ball.speedx = Ball.speedx * -1
+	  Brick112.scale = 0.01
+	  Brick112.x = 10000
+	  mySound.play();
+	  Ball3.speedy = Ball3.speedy * -1
+	    score += 1
+	  
+	  }else if(Ball3.collideObject (Brick113)){
+	 //Ball.speedx = Ball.speedx * -1
+	  Brick113.scale = 0.01
+	  Brick113.x = 10000
+	  mySound.play();
+	  Ball3.speedy = Ball3.speedy * -1
+	    score += 1
+	  
+	  }else if(Ball3.collideObject (Brick114)){
+	  //Ball.speedx = Ball.speedx * -1
+	  Brick114.scale = 0.01
+	  Brick114.x = 10000
+	  mySound.play();
+	  Ball3.speedy = Ball3.speedy * -1
+	    score += 1
+	  
+	  }else if(Ball3.collideObject (Brick115)){
+	 //Ball.speedx = Ball.speedx * -1
+	  Brick115.scale = 0.01
+	  Brick115.x = 10000
+	  mySound.play();
+	  Ball3.speedy = Ball3.speedy * -1
+	    score += 1
+	  
+	  }else if(Ball3.collideObject (Brick116)){
+	  //Ball.speedx = Ball.speedx * -1
+	  Brick116.scale = 0.01
+	  Brick116.x = 10000
+	  mySound.play();
+	  Ball3.speedy = Ball3.speedy * -1
+	    score += 1
+	  
+	  }else if(Ball3.collideObject (Brick117)){
+	  //Ball.speedx = Ball.speedx * -1
+	  Brick117.scale = 0.01
+	  Brick117.x = 10000
+	  mySound.play();
+	  Ball3.speedy = Ball3.speedy * -1
+	    score += 1
+		
+		
+		
+	  }else if(Ball3.collideObject (DoubleBrick12)){
+	  //Ball.speedx = Ball.speedx * -1
+	  DoubleBrick12.scale = 0.01
+	  DoubleBrick12.x = 10000
+	  mySound.play();
+	  Brick110.scale = .1
+	  Brick110.x = 1
+	  Ball3.speedy = Ball3.speedy * -1
+	    score += 1
+	  
+	  }else if(Ball3.collideObject (DoubleBrick13)){
+	  //Ball.speedx = Ball.speedx * -1
+	  DoubleBrick13.scale = 0.01
+	  DoubleBrick13.x = 10000
+	  mySound.play();
+	  Brick111.scale = .1
+	  Brick111.x = 75
+	  Ball3.speedy = Ball3.speedy * -1
+	    score += 1
+		
+	  }else if(Ball3.collideObject (DoubleBrick14)){
+	  //Ball.speedx = Ball.speedx * -1
+	  DoubleBrick14.scale = 0.01
+	  DoubleBrick14.x = 10000
+	  mySound.play();
+	  Brick112.scale = .1
+	  Brick112.x = 150
+	  Ball3.speedy = Ball3.speedy * -1
+	    score += 1
+	  
+	  }else if(Ball3.collideObject (DoubleBrick15)){
+	  //Ball.speedx = Ball.speedx * -1
+	  DoubleBrick15.scale = 0.01
+	  DoubleBrick15.x = 10000
+	  mySound.play();
+	  Brick113.scale = .1
+	  Brick113.x = 225
+	  Ball3.speedy = Ball3.speedy * -1
+	    score += 1
+		
+	  }else if(Ball3.collideObject (DoubleBrick16)){
+	  //Ball.speedx = Ball.speedx * -1
+	  DoubleBrick16.scale = 0.01
+	  DoubleBrick16.x = 10000
+	  mySound.play();
+	  Brick114.scale = .1
+	  Brick114.x = 300
+	  Ball3.speedy = Ball3.speedy * -1
+	    score += 1
+	  
+	  }else if(Ball3.collideObject (DoubleBrick17)){
+	  //Ball.speedx = Ball.speedx * -1
+	  DoubleBrick17.scale = 0.01
+	  DoubleBrick17.x = 10000
+	  mySound.play();
+	  Brick115.scale = .1
+	  Brick115.x = 375
+	  Ball3.speedy = Ball3.speedy * -1
+	    score += 1
+		
+	  }else if(Ball3.collideObject (DoubleBrick18)){
+	  //Ball.speedx = Ball.speedx * -1
+	  DoubleBrick18.scale = 0.01
+	  DoubleBrick18.x = 10000
+	  mySound.play();
+	  Brick116.scale = .1
+	  Brick116.x = 450
+	  Ball3.speedy = Ball3.speedy * -1
+	    score += 1
+	  
+	  }else if(Ball3.collideObject (DoubleBrick19)){
+	  //Ball.speedx = Ball.speedx * -1
+	  DoubleBrick19.scale = 0.01
+	  DoubleBrick19.x = 10000
+	  mySound.play();
+	  Brick117.scale = .1
+	  Brick117.x = 525
+	  Ball3.speedy = Ball3.speedy * -1
+	    score += 1
+		
+		}else if(Ball3.collideObject (Boss3)){
+	    //Ball.speedx = Ball.speedx * -1
+        Ball3.x = Rectangle3.x
+        Ball3.y = 370
+	    mySound.play();
+        Brick110.x = 1000
+		Brick111.x = 1000
+		Brick112.x = 1000
+		Brick113.x = 1000
+		Brick114.x = 1000
+		Brick115.x = 1000
+		Brick116.x = 1000
+		Brick117.x = 1000
+		DoubleBrick12.x = 1000
+		DoubleBrick13.x = 1000
+		DoubleBrick14.x = 1000
+		DoubleBrick15.x = 1000
+		DoubleBrick16.x = 1000
+		DoubleBrick17.x = 1000
+		DoubleBrick18.x = 1000
+		DoubleBrick19.x = 1000
+		
+
+		Boss4.x = Boss3.x
+		Boss3.scale = 0.01
+	    Boss3.x = 10000
+	    Ball3.speedy = Ball3.speedy * -1
+	    score += 1
 		}
+		
+		
 		
 		if(Ball3.y > 450){
 	    alert("Game Over")
@@ -2622,6 +2970,17 @@ document.body.onmousedown = function() { return false; } //so page is unselectab
 		 DoubleBrick11.draw();
 		 
          Boss2.draw();
+<<<<<<< HEAD
+=======
+		 Brick110.draw();
+		 Brick111.draw();
+		 Brick112.draw();
+		 Brick113.draw();
+		 Brick114.draw();
+		 Brick115.draw();
+		 Brick116.draw();
+		 Brick117.draw();
+>>>>>>> origin/master
 		 DoubleBrick12.draw();
 		 DoubleBrick13.draw();
 		 DoubleBrick14.draw();
