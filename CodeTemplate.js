@@ -989,7 +989,45 @@ document.body.onmousedown = function() { return false; } //so page is unselectab
 	
 	Brick117.scale = .1
 
-
+    DoubleBrick12.x = 1000
+	DoubleBrick12.y = 120
+	
+	DoubleBrick12.scale = .022
+	
+	DoubleBrick13.x = 1000
+	DoubleBrick13.y = 120
+	
+	DoubleBrick13.scale = .022
+	
+	DoubleBrick14.x = 1000
+	DoubleBrick14.y = 120
+	
+	DoubleBrick14.scale = .022
+	
+	DoubleBrick15.x = 1000
+	DoubleBrick15.y = 120
+	
+	DoubleBrick15.scale = .022
+	
+	DoubleBrick16.x = 1000
+	DoubleBrick16.y = 120
+	
+	DoubleBrick16.scale = .022
+	
+	DoubleBrick17.x = 1000
+	DoubleBrick17.y = 120
+	
+	DoubleBrick17.scale = .022
+	
+	DoubleBrick18.x = 1000
+	DoubleBrick18.y = 120
+	
+	DoubleBrick18.scale = .022
+	
+	DoubleBrick19.x = 1000
+	DoubleBrick19.y = 120
+	
+	DoubleBrick19.scale = .022
 	
 	Boss3.x = 800
 	Boss3.y = 30
@@ -2522,7 +2560,7 @@ document.body.onmousedown = function() { return false; } //so page is unselectab
                Ball3.x = Rectangle3.x
                Ball3.y = 370
 	    mySound.play();
-        +Brick102.x = 1000
+        Brick102.x = 1000
 		Brick103.x = 1000
 		Brick104.x = 1000
 		Brick105.x = 1000
@@ -2535,11 +2573,15 @@ document.body.onmousedown = function() { return false; } //so page is unselectab
 		DoubleBrick10.x = 1000
 		DoubleBrick11.x = 1000
 		
-		Brick110.x = 1000
-	    Brick111.x = 1000
-		Brick112.x = 1000
-		Brick113.x = 1000
-
+		DoubleBrick12.x = 1
+		DoubleBrick13.x = 75
+		DoubleBrick14.x = 150
+		DoubleBrick15.x = 225
+		DoubleBrick16.x = 300
+		DoubleBrick17.x = 375
+		DoubleBrick18.x = 450
+		DoubleBrick19.x = 525
+		
 
 		Boss3.x = Boss2.x
 		Boss2.scale = 0.01
@@ -2580,6 +2622,15 @@ document.body.onmousedown = function() { return false; } //so page is unselectab
 		 DoubleBrick11.draw();
 		 
          Boss2.draw();
+		 DoubleBrick12.draw();
+		 DoubleBrick13.draw();
+		 DoubleBrick14.draw();
+		 DoubleBrick15.draw();
+		 DoubleBrick16.draw();
+		 DoubleBrick17.draw();
+		 DoubleBrick18.draw();
+		 DoubleBrick19.draw();
+		 
          Boss3.draw();
          
         }		
